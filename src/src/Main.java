@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //creating objects of clases
+        //creating objects
         PayrollSystem payrollSystem = new PayrollSystem();
         FulltimeEmployee emp1 = new FulltimeEmployee("yaswanth",1,50000.0);
         PartTimeEmployee emp2 = new PartTimeEmployee("Yash",2,100,40);
