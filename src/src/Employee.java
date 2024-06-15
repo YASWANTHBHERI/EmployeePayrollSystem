@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+
+//creating an abstract class
 abstract class Employee {
 
     private String name;
@@ -26,6 +28,7 @@ abstract class Employee {
 
 }
 
+//creating fulltime employee class
 class FulltimeEmployee extends Employee{
 
     private double monthSalary;
@@ -41,6 +44,7 @@ class FulltimeEmployee extends Employee{
 
 }
 
+//creating part-time employee class
 class PartTimeEmployee extends Employee{
     private int hoursWorked;
     private double  hourlyRate;
@@ -58,6 +62,7 @@ class PartTimeEmployee extends Employee{
 
 }
 
+//creating payrollsystem class to perform operations
 class PayrollSystem{
     public ArrayList<Employee> employeeList;
 
